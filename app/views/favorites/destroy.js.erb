@@ -1,0 +1,1 @@
+document.getElementById('favorite_btn_<%= @book.id %>').innerHTML = "<%= j(render partial: 'favorites/favorite', locals: {book: @book}) %>";
